@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* 
+    open{
+        font-family: "Open Sans", sans-serif;
+    }
+    bebas{
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+ */
+img{
+    max-width: 100%;
+    height: auto;  
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #eaca1c;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 60px;
+}
+.menu ul{
+    display: flex;
+    
+}
+.menu ul li a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding:0 20px;
+    color: black;
+}
+.i-var{
+    display: none;
+}
+.team-img{
+    margin-top: 5%;
+}
+.team-content h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    font-weight:550;
+}
+.team-content p{
+    font-size: 12px;
+    color: black;
+}
+.team-content button{
+    background-color: #eaca1c;
+    border-style: none;
+    padding: 5px 20px;
+    font-weight:600;
+}
+.team-img-1{
+    background-color: #eaca1c;
+    padding: 60px;
+    margin-top: 12%;
+}
+.team-content-2{
+    background-color:#e5e5e5;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    margin:5% ;
+}
+.team-contents img{
+    width: 400px;
+}
+.about{
+    background-color: black;
+    color: whitesmoke;
+    padding: 50px;
+}
+.about-content{
+    text-align: center;
+}
+.about-content h5{
+    font-family: "Bebas Neue", sans-serif;
+    color: #eaca1c;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.about-content p{
+    font-family: "Open sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 3%;
+
+}
+.about-content button{
+    font-family: "Open sans", sans-serif;
+    background-color:#eaca1c;
+    padding: 4px 20px;
+    border: 1px solid #eaca1c;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 25px;
+    
+}
+.our-team{
+    padding: 50px 0px;
+}
+.team-img-3{
+    background-color: #e5e5e5;
+    padding: 50px 0;
+}
+.subscribe{
+    padding: 100px 0px;
+}
+.sub-content{
+    background-color: black;
+    padding: 30px;
+    color:white;
+}
+.sub-content input,textarea{
+    background-color: black;border:1px solid whitesmoke;
+    color: white;
+}
+.sub-content label{
+    margin: 5px;
+}
+.sub-content .i-size{
+    width: 190px;
+}
+.contact{
+    background-color: #eaca1c;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: #e5e5e5;
+    padding: 50px 0;
+}
+.f-logo img{
+    width: 80px;
+}
+.f-content{
+    margin-bottom: 5%;
+}
+.f-content li a{
+    font-family: "Open sans", sans-serif;
+    color: #eaca1c;
+    font-weight:700;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.f-content p{
+    color: #eaca1c;
+    display: inline;
+    font-weight: 600;
+}
+.f-bottom{
+    border-bottom: 1px solid white;
+    margin: 20px;
+}
+.f-icon a{
+    color: #eaca1c;
+    padding: 0 5px;
+} 
+
+/* Responsive */
+
+@media(max-width:991px){
+    .i-var{
+        display: block;
+    }
+    .menu ul{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 9%;
+        background-color:#eaca1c;
+        width: 100%;
+        padding: 40px;
+        text-align: center;
+        z-index: 100;
+    }
+    .team-img img{
+        width: 400px;
+    }
+    .team-content h1{
+        font-size: 30px;   
+    }
+    .team-content p{
+        font-size: 8px;
+    }
+}
+
+@media(max-width:791px){
+    .logo img{
+        width: 50px;
+    }
+
+}
+@media(max-width:678px){
+    .team-content h1{
+        font-size: 25px !important;   
+    }
+    .team-content img{
+        margin-top: 10%;
+    }
+}
+
+@media(max-width:320px){
+    .team-content{
+        text-align: center;
+    }
+}
